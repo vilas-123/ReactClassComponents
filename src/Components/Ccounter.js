@@ -21,6 +21,7 @@ export class Ccounter extends Component {
     return (
       <div>
         {this.props.render(this.state.count,this.Increment)}
+        <br/>
         
       </div>
     )
